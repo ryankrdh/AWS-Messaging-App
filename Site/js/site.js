@@ -22,7 +22,7 @@ var ChatApp = window.ChatApp || {};
     };
 
     ChatApp.loadChat = function () {
-        $.get('data/conversations/' + location.hash.substring(1) + '.json').done(function (result) {
+        $.get(apiEndpoint + '/conversations/' + location.hash.substring(1)).done(function (result) {
             result.messages.forEach(function (message) {
                 var panel = $('<div class="panel">');
                 if (message.sender === currentUsername) {
@@ -53,4 +53,5 @@ var ChatApp = window.ChatApp || {};
             window.scrollTo(0, document.body.scrollHeight);
         });
     };
+
 }(jQuery));

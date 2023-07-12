@@ -19,10 +19,24 @@ exports.handler = function (event, context, callback) {
         });
     };
 
-    S3.getObject({
-        Bucket: bucket,
-        Key: 'data/conversations.json'
-    }, function (err, data) {
-        done(err, err ? null : JSON.parse(data.Body.toString()));
-    });
+    var path = event.pathParameters.proxy;
+
+    if (path === 'conversations') {
+        S3.getObject({
+            Bucket: bucket,
+            Key: 'data/conversations.json'
+        }, function (err, data) {
+            done(err, err ? null : JSON.parse(data.Body.toString()));
+        });
+    } else if (path.startsWith('conversations/')) {
+        var id = path.substring('conversations/'.length);
+        S3.getObject({
+            Bucket: bucket,
+            Key: 'data/conversations/' + id + '.json'
+        }, function (err, data) {
+            done(err, err ? null : JSON.parse(data.Body.toString()));
+        });
+    } else {
+        done('No cases hit');
+    }
 };
