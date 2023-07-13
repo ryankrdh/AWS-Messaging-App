@@ -4,8 +4,16 @@
     {
       "Sid": "VisualEditor0",
       "Effect": "Allow",
-      "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::<your bucket name>/*"
+      "Action": [
+        "dynamodb:BatchWriteItem",
+        "dynamodb:PutItem",
+        "dynamodb:Query"
+      ],
+      "Resource": [
+        "arn:aws:dynamodb:<region>:<your account id>:table/Chat-Conversations",
+        "arn:aws:dynamodb:<region>:<your account id>:table/Chat-Messages",
+        "arn:aws:dynamodb:<region>:<your account id>:table/Chat-Conversations/index/Username-ConversationId-index"
+      ]
     }
   ]
 }
