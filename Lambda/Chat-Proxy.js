@@ -31,15 +31,35 @@ exports.handler = function (event, context, callback) {
         });
     } else if (path.startsWith('conversations/')) {
         var id = path.substring('conversations/'.length);
-        dynamo.query({
-            TableName: 'Chat-Messages',
-            ProjectionExpression: '#T, Sender, Message',
-            ExpressionAttributeNames: {'#T': 'Timestamp'},
-            KeyConditionExpression: 'ConversationId = :id',
-            ExpressionAttributeValues: {':id': {S: id}}
-        }, function (err, data) {
-            loadMessages(err, data, id, [], done);
-        });
+        switch(event.httpMethod) {
+            case 'GET':
+                dynamo.query({
+                    TableName: 'Chat-Messages',
+                    ProjectionExpression: '#T, Sender, Message',
+                    ExpressionAttributeNames: {'#T': 'Timestamp'},
+                    KeyConditionExpression: 'ConversationId = :id',
+                    ExpressionAttributeValues: {':id': {S: id}}
+                }, function (err, data) {
+                    loadMessages(err, data, id, [], done);
+                });
+                break;
+            case 'POST':
+                dynamo.putItem({
+                    TableName: 'Chat-Messages',
+                    Item: {
+                        ConversationId: {S: id},
+                        Timestamp: {
+                            N: "" + new Date().getTime()
+                        },
+                        Message: {S: event.body},
+                        Sender: {S: 'Student'}
+                    }
+                }, done);
+                break;
+            default:
+                done('No cases hit');
+                break;
+        }
     } else {
         done('No cases hit');
     }
