@@ -87,6 +87,9 @@ var ChatApp = window.ChatApp || {};
             .then(function (result) {
                 result.data.forEach(function (name) {
                     var button = $('<button class="btn btn-primary">Start Chat</button>');
+                    button.on('click', function() {
+                        ChatApp.startChat(name);
+                    });
 
                     var row = $('<tr>');
                     row.append('<td>' + name + '</td>');
@@ -96,6 +99,13 @@ var ChatApp = window.ChatApp || {};
                     $('TBODY').append(row);
                 });
                 $('TBODY').append('<tr><td></td><td></td></tr>');
+            });
+    };
+
+    ChatApp.startChat = function (name) {
+        apiClient.conversationsPost({}, [name], {})
+            .then(function (result) {
+                window.location = '/chat.html#' + result.data;
             });
     };
 
