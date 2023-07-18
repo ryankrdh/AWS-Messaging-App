@@ -10,6 +10,48 @@ var ChatApp = window.ChatApp || {};
 
     var apiClient = apigClientFactory.newClient();
 
+    ChatApp.checkLogin = function (redirectOnRec, redirectOnUnrec) {
+        var cognitoUser = userPool.getCurrentUser();
+        if (cognitoUser !== null) {
+            if (redirectOnRec) {
+                window.location = '/chats.html';
+            }
+        } else {
+            if (redirectOnUnrec) {
+                window.location = '/';
+            }
+        }
+    };
+
+    ChatApp.login = function () {
+        var username = $('#username').val();
+        var authenticationData = {
+            Username: username,
+            Password: $('#password').val()
+        };
+
+        var authenticationDetails = new AmazonCognitoIdentity.AuthenticationDetails(authenticationData);
+        var userData = {
+            Username: username,
+            Pool: userPool
+        };
+        var cognitoUser = new AmazonCognitoIdentity.CognitoUser(userData);
+        cognitoUser.authenticateUser(authenticationDetails, {
+            onSuccess: function () {
+                window.location = '/chats.html';
+            },
+            onFailure: function (err) {
+                alert(err);
+            }
+        });
+    };
+
+    ChatApp.logout = function () {
+        var cognitoUser = userPool.getCurrentUser();
+        cognitoUser.signOut();
+        window.location = '/';
+    };
+
     ChatApp.populateChats = function () {
         apiClient.conversationsGet({}, null, {})
             .then(function (result) {
