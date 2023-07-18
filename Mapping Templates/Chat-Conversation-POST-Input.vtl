@@ -1,6 +1,6 @@
 #set($inputRoot = $input.path('$'))
 {
-"cognitoUsername": "Student",
+"cognitoUsername": "$context.authorizer.claims['cognito:username']",
 "users":
 [
 #foreach($elem in $inputRoot)
