@@ -2,9 +2,11 @@
 
 ### Welcome to the Chat App! This project showcases a powerful web application that leverages various AWS services to provide a seamless user experience.
 
+### To use the Chat App. Click this link
+
 ## Key Features
 
-**Static Resource Serving:** Static resources including JavaScript, HTML, and CSS files are efficiently served to web browsers using AWS's S3, ensuring optimal performance.
+**Static Resource Serving:** Static resources including JavaScript, HTML, and BOOTSTRAP(CSS) files are efficiently served to web browsers using AWS's S3, ensuring optimal performance.
 
 **Dynamic Chat App:** JavaScript is utilized to dynamically modify the chat application, enabling real-time updates and enhancing the interactivity for users.
 
