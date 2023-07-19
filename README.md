@@ -2,7 +2,9 @@
 
 ### Welcome to the Chat App! This project showcases a powerful web application that leverages various AWS services to provide a seamless user experience.
 
-### To use the Chat App. Click this link
+### Click to Use The App! <br />
+
+<a href="https://dk9docly2kxyz.cloudfront.net/"></a>
 
 ## Key Features
 
