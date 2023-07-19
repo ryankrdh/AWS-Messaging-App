@@ -7,29 +7,57 @@ Click ⬇ to START!</br>
 
 ## Key Features
 
-**Static Resource Serving:** Static resources including JavaScript, HTML, and BOOTSTRAP(CSS) files are efficiently served to web browsers using AWS's S3, ensuring optimal performance.
+- **Static Resource Serving:** I utilized AWS's S3 to efficiently serve static resources such as JavaScript, HTML, and BOOTSTRAP (CSS) files to web browsers. This approach ensures that the web content is delivered with optimal performance, enhancing the overall user experience.
 
-**Dynamic Chat App:** JavaScript is utilized to dynamically modify the chat application, enabling real-time updates and enhancing the interactivity for users.
+---
 
-**Access Policy Management:** Permissions and access policies are effectively managed using AWS IAM, ensuring secure and controlled access to the application's resources.
+- **Dynamic Chat App:** I used JavaScript to make the chat application dynamic, allowing real-time updates and enhancing user interactivity. This means users can enjoy a seamless and interactive chat experience.
 
-**Cloud-based Data Manipulation:** AWS Lambda enables efficient manipulation and processing of data in the cloud, ensuring scalability and seamless data management.
+---
 
-**Client-side Security Management:** CORS (Cross-Origin Resource Sharing) is employed to manage client-side security, allowing controlled and secure communication between the web app and external resources.
+- **Access Policy Management:** I ensured the security and controlled access to the application's resources by effectively managing permissions and access policies using AWS IAM. This helps maintain a secure environment for the application and its users.
 
-**Chat Data Storage:** Chat data is securely stored and retrieved using DynamoDB, an efficient NoSQL database service provided by AWS.
+---
 
-**API Modeling and SDK Creation:** APIs are elegantly modeled and software development kits (SDKs) are created using API Gateway, simplifying integration and interaction with the application's services.
+- **Cloud-based Data Manipulation:** With the power of AWS Lambda, I was able to efficiently manipulate and process data in the cloud. This cloud-based approach ensures scalability, flexibility, and seamless data management for the application.
 
-**User Login System:** A user-friendly login system is implemented using AWS Cognito, ensuring secure authentication and authorization for application users.
+---
 
-**Accelerated Web App Performance:** The web app's performance is optimized with the help of CloudFront CDN (Content Delivery Network), resulting in faster content delivery and an improved user experience.
+- **Client-side Security Management:** To ensure secure communication between the web app and external resources, I employed CORS (Cross-Origin Resource Sharing) for client-side security. This helps me maintain control and security while enabling smooth integration with external services.
 
-## Installation and Usage
+---
 
-Clone the repository.
-Follow the detailed instructions in the provided documentation to set up and deploy the project.
-Enjoy exploring the powerful features of the web application!
+- **Chat Data Storage:** I'm storing and retrieving chat data using DynamoDB, a highly efficient NoSQL database service provided by AWS. This ensures that your chat history remains secure and readily available whenever you need it.
+
+---
+
+- **API Modeling and SDK Creation:** I designed elegant APIs and created software development kits (SDKs) using API Gateway. This simplifies the integration process and makes it easier for developers to interact with the application's services.
+
+---
+
+- **User Login System:** I implemented a user-friendly login system using AWS Cognito. This ensures secure authentication and authorization for application users, providing them with a seamless and protected login experience.
+
+---
+
+- **Accelerated Web App Performance:** I optimized the web app's performance by leveraging the power of CloudFront CDN (Content Delivery Network). This results in faster content delivery to users, enhancing their overall experience with the application.
+
+---
+
+## How to use
+
+1. Click on the icon at the top to use the chat app.
+
+2. You may sign up as new user OR use our tester account.
+   username: tester
+   password: chatapp1
+
+## Built With
+
+- Javascript, Html, Bootstrap(CSS), AWS(Cloud Front, S3, API Gateway, Lambda, IAM, DynamoDB, Cognito and CORS)
+
+## Authors
+
+- **Ryan Kim** - [Ryankrdh](https://github.com/ryankrdh)
 
 ## License
 
