@@ -47,8 +47,8 @@ Click ⬇ to START!</br>
 
 1. Click on the icon at the top to use the chat app.
 
-2. You may sign up as new user OR use our tester account. </br>
-   username: tester </br>
+2. You may sign up as new user OR use our tester account. <br>
+   username: tester <br>
    password: chatapp1
 
 ## Built With
