@@ -31,7 +31,7 @@ Click ⬇ to START!</br>
 
 ---
 
-- **API Modeling and SDK Creation:** I designed elegant APIs and created software development kits (SDKs) using API Gateway. This simplifies the integration process and makes it easier for developers to interact with the application's services.
+- **API Modeling and SDK Creation:** I designed elegant REST APIs and created software development kits (SDKs) using API Gateway. This simplifies the integration process and makes it easier for developers to interact with the application's services.
 
 ---
 
