@@ -53,11 +53,11 @@ Click ⬇ to START!</br>
 
 ## Built With
 
-- Javascript, Html, Bootstrap(CSS), AWS(Cloud Front, S3, API Gateway, Lambda, IAM, DynamoDB, Cognito and CORS)
+Javascript, Html, Bootstrap(CSS), AWS(Cloud Front, S3, API Gateway, Lambda, IAM, DynamoDB, Cognito and CORS)
 
 ## Authors
 
-- **Ryan Kim** - [Ryankrdh](https://github.com/ryankrdh)
+**Ryan Kim** - [Ryankrdh](https://github.com/ryankrdh)
 
 ## License
 
