@@ -9,26 +9,27 @@ Click ⬇ to START!<br><br>
 Developed a web application leveraging AWS services that enables users to sign up, log in, and engage in real-time chat with other users. The project showcases proficiency in AWS cloud services, front-end development, and security implementations.
 
 ## Key Features:
-- Real-time Chat: Users can sign up and log in to engage in real-time chat conversations with other users.
-  &nbsp;
-- AWS S3 Integration: Utilized AWS S3 for efficient delivery of static resources such as JavaScript, HTML, and Bootstrap(CSS) to enhance the web application's performance.
-  &nbsp;
-- Lambda Functions: Employed AWS Lambda for cloud data manipulation, enabling seamless interactions between users in the chat.
-  &nbsp;
-- DynamoDB Integration: Implemented AWS DynamoDB to store and manage chat data, ensuring scalability and data persistence.
-  &nbsp;
-- API Gateway: Utilized AWS API Gateway to model REST APIs and SDK, facilitating communication between the front-end and back-end components.
-  &nbsp;
-- Secure User Login: Integrated AWS Cognito to provide secure user authentication and login functionality.
-  &nbsp;
-- Access Management: Demonstrated proficiency in managing permissions and access policies using AWS IAM services.
-  &nbsp;
-- CloudFront Acceleration: Utilized AWS CloudFront to accelerate web app performance, ensuring a smooth user experience even with large-scale usage.
-  &nbsp;
-- Dynamic User Pages: Implemented dynamic user pages to provide a personalized experience for each user.
-  &nbsp;
-- Client-Side Security: Ensured client-side security management with CORS (Cross-Origin Resource Sharing) to mitigate potential security risks.
-  &nbsp;
+* **Real-time Chat:** Users can sign up and log in to engage in real-time chat conversations with other users.
+&nbsp;
+* **AWS S3 Integration:** Utilized AWS S3 for efficient delivery of static resources such as JavaScript, HTML, and Bootstrap(CSS) to enhance the web application's performance.
+&nbsp;
+* **Lambda Functions:** Employed AWS Lambda for cloud data manipulation, enabling seamless interactions between users in the chat.
+&nbsp;
+* **DynamoDB Integration:** Implemented AWS DynamoDB to store and manage chat data, ensuring scalability and data persistence.
+&nbsp;
+* **API Gateway:** Utilized AWS API Gateway to model REST APIs and SDK, facilitating communication between the front-end and back-end components.
+&nbsp;
+* **Secure User Login:** Integrated AWS Cognito to provide secure user authentication and login functionality.
+&nbsp;
+* **Access Management:** Demonstrated proficiency in managing permissions and access policies using AWS IAM services.
+&nbsp;
+* **CloudFront Acceleration:** Utilized AWS CloudFront to accelerate web app performance, ensuring a smooth user experience even with large-scale usage.
+&nbsp;
+* **Dynamic User Pages:** Implemented dynamic user pages to provide a personalized experience for each user.
+&nbsp;
+* **Client-Side Security:** Ensured client-side security management with CORS (Cross-Origin Resource Sharing) to mitigate potential security risks.
+&nbsp;
+
 
 
 ## How to use
