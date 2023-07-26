@@ -1,47 +1,35 @@
 # Chat App
 
-### Welcome to the Chat App! This project showcases a powerful web application that leverages various AWS services to provide a seamless user experience.
+### Welcome to the Chat App! 
 
 Click ⬇ to START!<br><br>
 <a href="https://dk9docly2kxyz.cloudfront.net/"><img src="img/chat-icon.png" width="100" height="100"></a>
 
-## Key Features
+## Project Summary:
+Developed a web application leveraging AWS services that enables users to sign up, log in, and engage in real-time chat with other users. The project showcases proficiency in AWS cloud services, front-end development, and security implementations.
 
-- **Static Resource Serving:** I utilized AWS's S3 to efficiently serve static resources such as JavaScript, HTML, and BOOTSTRAP (CSS) files to web browsers. This approach ensures that the web content is delivered with optimal performance, enhancing the overall user experience.
+## Key Features:
+- Real-time Chat: Users can sign up and log in to engage in real-time chat conversations with other users.
+  &nbsp;
+- AWS S3 Integration: Utilized AWS S3 for efficient delivery of static resources such as JavaScript, HTML, and Bootstrap(CSS) to enhance the web application's performance.
+  &nbsp;
+- Lambda Functions: Employed AWS Lambda for cloud data manipulation, enabling seamless interactions between users in the chat.
+  &nbsp;
+- DynamoDB Integration: Implemented AWS DynamoDB to store and manage chat data, ensuring scalability and data persistence.
+  &nbsp;
+- API Gateway: Utilized AWS API Gateway to model REST APIs and SDK, facilitating communication between the front-end and back-end components.
+  &nbsp;
+- Secure User Login: Integrated AWS Cognito to provide secure user authentication and login functionality.
+  &nbsp;
+- Access Management: Demonstrated proficiency in managing permissions and access policies using AWS IAM services.
+  &nbsp;
+- CloudFront Acceleration: Utilized AWS CloudFront to accelerate web app performance, ensuring a smooth user experience even with large-scale usage.
+  &nbsp;
+- Dynamic User Pages: Implemented dynamic user pages to provide a personalized experience for each user.
+  &nbsp;
+- Client-Side Security: Ensured client-side security management with CORS (Cross-Origin Resource Sharing) to mitigate potential security risks.
+  &nbsp;
 
----
-
-- **Dynamic Chat App:** I used JavaScript to make the chat application dynamic, allowing real-time updates and enhancing user interactivity. This means users can enjoy a seamless and interactive chat experience.
-
----
-
-- **Access Policy Management:** I ensured the security and controlled access to the application's resources by effectively managing permissions and access policies using AWS IAM. This helps maintain a secure environment for the application and its users.
-
----
-
-- **Cloud-based Data Manipulation:** With the power of AWS Lambda, I was able to efficiently manipulate and process data in the cloud. This cloud-based approach ensures scalability, flexibility, and seamless data management for the application.
-
----
-
-- **Client-side Security Management:** To ensure secure communication between the web app and external resources, I employed CORS (Cross-Origin Resource Sharing) for client-side security. This helps me maintain control and security while enabling smooth integration with external services.
-
----
-
-- **Chat Data Storage:** I'm storing and retrieving chat data using DynamoDB, a highly efficient NoSQL database service provided by AWS. This ensures that your chat history remains secure and readily available whenever you need it.
-
----
-
-- **API Modeling and SDK Creation:** I designed elegant REST APIs and created software development kits (SDKs) using API Gateway. This simplifies the integration process and makes it easier for developers to interact with the application's services.
-
----
-
-- **User Login System:** I implemented a user-friendly login system using AWS Cognito. This ensures secure authentication and authorization for application users, providing them with a seamless and protected login experience.
-
----
-
-- **Accelerated Web App Performance:** I optimized the web app's performance by leveraging the power of CloudFront CDN (Content Delivery Network). This results in faster content delivery to users, enhancing their overall experience with the application.
-
----
 
 ## How to use
 
