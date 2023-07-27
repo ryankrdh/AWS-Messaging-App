@@ -9,8 +9,8 @@ Click ⬇ to START!<br><br>
 Developed a web application leveraging AWS services that enables users to sign up, log in, and engage in real-time chat with other users. The project showcases proficiency in AWS cloud services, front-end development, and security implementations.
 
 ## Key Features:
-* **Real-time Chat:** Users can sign up and log in to engage in real-time chat conversations with other users. <br>
-&nbsp;
+* **Real-time Chat:** Users can sign up and log in to engage in real-time chat conversations with other users.
+
 * **AWS S3 Integration:** Utilized AWS S3 for efficient delivery of static resources such as JavaScript, HTML, and Bootstrap(CSS) to enhance the web application's performance. <br>
 &nbsp;
 * **Lambda Functions:** Employed AWS Lambda for cloud data manipulation, enabling seamless interactions between users in the chat. <br>
