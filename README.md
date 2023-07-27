@@ -11,24 +11,25 @@ Developed a web application leveraging AWS services that enables users to sign u
 ## Key Features:
 * **Real-time Chat:** Users can sign up and log in to engage in real-time chat conversations with other users.
 
-* **AWS S3 Integration:** Utilized AWS S3 for efficient delivery of static resources such as JavaScript, HTML, and Bootstrap(CSS) to enhance the web application's performance. <br>
-&nbsp;
-* **Lambda Functions:** Employed AWS Lambda for cloud data manipulation, enabling seamless interactions between users in the chat. <br>
-&nbsp;
-* **DynamoDB Integration:** Implemented AWS DynamoDB to store and manage chat data, ensuring scalability and data persistence. <br>
-&nbsp;
-* **API Gateway:** Utilized AWS API Gateway to model REST APIs and SDK, facilitating communication between the front-end and back-end components. <br>
-&nbsp;
-* **Secure User Login:** Integrated AWS Cognito to provide secure user authentication and login functionality. <br>
-&nbsp;
-* **Access Management:** Demonstrated proficiency in managing permissions and access policies using AWS IAM services. <br>
-&nbsp;
-* **CloudFront Acceleration:** Utilized AWS CloudFront to accelerate web app performance, ensuring a smooth user experience even with large-scale usage. <br>
-&nbsp;
-* **Dynamic User Pages:** Implemented dynamic user pages to provide a personalized experience for each user. <br>
-&nbsp;
-* **Client-Side Security:** Ensured client-side security management with CORS (Cross-Origin Resource Sharing) to mitigate potential security risks. <br>
-&nbsp;
+* **AWS S3 Integration:** Utilized AWS S3 for efficient delivery of static resources such as JavaScript, HTML, and Bootstrap(CSS) to enhance the web application's performance.
+  
+* **Lambda Functions:** Employed AWS Lambda for cloud data manipulation, enabling seamless interactions between users in the chat.
+  
+* **DynamoDB Integration:** Implemented AWS DynamoDB to store and manage chat data, ensuring scalability and data persistence.
+  
+* **API Gateway:** Utilized AWS API Gateway to model REST APIs and SDK, facilitating communication between the front-end and back-end components.
+  
+* **Secure User Login:** Integrated AWS Cognito to provide secure user authentication and login functionality.
+  
+* **Access Management:** Demonstrated proficiency in managing permissions and access policies using AWS IAM services.
+  
+* **CloudFront Acceleration:** Utilized AWS CloudFront to accelerate web app performance, ensuring a smooth user experience even with large-scale usage.
+  
+* **Dynamic User Pages:** Implemented dynamic user pages to provide a personalized experience for each user.
+  
+* **Client-Side Security:** Ensured client-side security management with CORS (Cross-Origin Resource Sharing) to mitigate potential security risks.
+
+  
 
 
 
