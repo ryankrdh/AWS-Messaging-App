@@ -1,6 +1,6 @@
-# Chat App
+# AWS Serverless Live Chat System
 
-### Welcome to the Chat App! 
+### Welcome to the Chat System! 
 
 Click ⬇ to START!<br><br>
 <a href="https://dk9docly2kxyz.cloudfront.net/"><img src="img/chat-icon.png" width="100" height="100"></a>
@@ -9,28 +9,11 @@ Click ⬇ to START!<br><br>
 Developed a web application leveraging AWS services that enables users to sign up, log in, and engage in real-time chat with other users. The project showcases proficiency in AWS cloud services, front-end development, and security implementations.
 
 ## Key Features:
-* **Real-time Chat:** Users can sign up and log in to engage in real-time chat conversations with other users.
+* Engineered and deployed a full-stack chat conversation data manager on AWS with Amazon S3 for persistence. Delivery of static contents is accelerated by CloudFront CDN and secured in client-side access control with CORS.
 
-* **AWS S3 Integration:** Utilized AWS S3 for efficient delivery of static resources such as JavaScript, HTML, and Bootstrap(CSS) to enhance the web application's performance.
-  
-* **Lambda Functions:** Employed AWS Lambda for cloud data manipulation, enabling seamless interactions between users in the chat.
-  
-* **DynamoDB Integration:** Implemented AWS DynamoDB to store and manage chat data, ensuring scalability and data persistence.
-  
-* **API Gateway:** Utilized AWS API Gateway to model REST APIs and SDK, facilitating communication between the front-end and back-end components.
-  
-* **Secure User Login:** Integrated AWS Cognito to provide secure user authentication and login functionality.
-  
-* **Access Management:** Demonstrated proficiency in managing permissions and access policies using AWS IAM services.
-  
-* **CloudFront Acceleration:** Utilized AWS CloudFront to accelerate web app performance, ensuring a smooth user experience even with large-scale usage.
-  
-* **Dynamic User Pages:** Implemented dynamic user pages to provide a personalized experience for each user.
-  
-* **Client-Side Security:** Ensured client-side security management with CORS (Cross-Origin Resource Sharing) to mitigate potential security risks.
+* Implemented a user management system and sign-in functionalities with Cognito and incorporated IAM to enable secure user registration and managed account permissions. 
 
-  
-
+* Developed RESTful APIs in Amazon API Gateway to enable GET/POST functionality that uses Lambda functions in the cloud to manipulate data at scale using DynamoDB with CRUD operations.
 
 
 ## How to use
